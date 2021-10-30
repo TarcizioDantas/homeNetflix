@@ -44,9 +44,19 @@ header nav a:hover{
 }
 
 .filme-principal{
-    font-size: 16px;
-    background-image: url('/img/imgFUNDO.jpg');
-    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/imgFUNDO.jpg);
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    height: 400px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
 }
