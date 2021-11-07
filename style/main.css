@@ -78,7 +78,7 @@ header nav a:hover{
     padding: 10px;
     margin-right: 5px;
     margin-left: 10px;
-    font-size: 10px;
+    font-size: 12px;
 
     cursor: pointer;
     transition: .3s ease all;
@@ -94,5 +94,11 @@ header nav a:hover{
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 50%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
